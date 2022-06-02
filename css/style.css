@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: system-ui;
+    background-color: #3949ab;
+}
+
+.container {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.add {
+    width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.add .inp-btn {    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #3949ab;
+}
+
+.listsBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.listsBox .box {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.2s;
+    transform: scale(120px);
+}
+.listsBox .box h2 {
+    text-align: center;
+}
+.listsBox .box p {
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    cursor: move;
+    min-width: 200px;
+    background-color: #3949ab;
+    transition: 0.3s;
+    transform: scale(120px);
+}
